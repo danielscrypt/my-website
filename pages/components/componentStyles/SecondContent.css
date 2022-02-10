@@ -1,0 +1,57 @@
+.SecondContent {
+    background-color: #2e3b55b2;
+}
+
+  .box {
+    width: 30%;
+    max-width: 210px;
+    min-width: 130px;
+    height: 70%;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 1rem;
+    margin: 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+  .box:hover {
+    border-radius: 20px;
+    font-size: 1.5rem;
+    background: inherit;
+    animation: anime 3s ease-in-out 1500ms alternate;
+    transition: all ease 800ms;
+    transform: scale(0.9);
+    /* animation-fill-mode: forwards; */
+  }
+
+  @keyframes anime {
+    0% {
+      width: 60px;
+      height: 60px;
+      background: inherit;
+      font-size: 1rem;
+      
+    }
+    25% {
+      width: 60px;
+      height: 60px;
+      background: inherit;
+  
+    }
+    50% {
+      width: 60px;
+      height: 240px;
+      background: inherit;
+      
+    }
+    100% {
+      width: 480px;
+      height: 240px;
+      background: inherit;
+    
+    }
+}
