@@ -1,0 +1,28 @@
+.contentAbout {
+    display: flex;
+    flex-direction: column;
+    height: 87vh;
+    margin-top: 3rem;
+    padding: 2rem 1rem;
+    background-color: rgba(253, 253, 253, 0.452);
+}
+
+.containerAbout {
+    background-image: url('./FB_IMG_1582291823737.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.title {
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    margin-bottom: 2rem;
+    /* font-family: 'Zen Kurenaido', sans-serif; */
+}
+
+.section1 {
+    height: 30%;
+    padding: 0.3rem 0.7rem;
+}

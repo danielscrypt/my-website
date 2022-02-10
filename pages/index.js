@@ -11,6 +11,7 @@ import useInView from "react-cool-inview";
 
 
 
+
 export default function Home() {
   const { observe, inView} = useInView();
 

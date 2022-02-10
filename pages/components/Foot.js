@@ -1,6 +1,9 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 
 function footer() {
+    
   return <div className='footer'>
 
       <h1 className='footerHeader'>Thank you so much for visiting my website</h1>
@@ -8,7 +11,7 @@ function footer() {
       <ul className='contactList'>
            <li>instgram</li>
           <li>facebook</li>
-          <li>github</li>
+          <li><i className='fab fa-airbnb'></i></li>
           <li>linkedin</li>
       </ul>
       <div className='emailAndPhone'>

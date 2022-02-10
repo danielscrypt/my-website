@@ -4,7 +4,7 @@
     width: 100vw;
     height: 70vh;
     transition: height ease-in-out 500ms;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     flex-direction: column;
     width : 100vw; 
     align-items : center ;

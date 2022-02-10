@@ -4,6 +4,8 @@ import './components/componentStyles/FIrstContent.css'
 import './components/componentStyles/SecondContent.css'
 import './components/componentStyles/break.css'
 import './components/componentStyles/footer.css'
+import './components/componentStyles/aboutMe.css'
+
 
 
 

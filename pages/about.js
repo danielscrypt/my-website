@@ -1,14 +1,14 @@
 import React from 'react'
-import Navbar from './components/navbar.js'\
-import footer from './components/Foot.js'
+import Navbar from './components/navbar.js'
+import Footer from './components/Foot.js'
 
 
 
-function abotMe() {
+function aboutMe() {
   return (
-    <div className='aboutMe'>
+    <div className='containerAbout'>
         <Navbar />
-        <div className='content'>
+        <div className='contentAbout'>
             <h1 className='title'>
                 I'm Daniel !
             </h1>
@@ -33,4 +33,4 @@ function abotMe() {
   )
 }
 
-export default abotMe
+export default aboutMe
