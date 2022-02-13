@@ -1,0 +1,33 @@
+.projectPage {
+    background-image: url('./GOPR2037.JPG');
+    background-repeat: no-repeat;
+    background-position:bottom ;
+    background-size: cover;
+    
+
+}
+
+.projectSection {
+    display: flex;
+    flex-direction: column;
+    border: 0.5px solid #fff;
+    margin: 1rem 0;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 0.295);
+}
+
+.projects {
+    height: 87vh;
+    background-color: rgba(255, 0, 0, 0.164);
+    margin-top: 3rem;
+    padding: 2rem 1rem;
+}
+
+.projectContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0.7rem;
+    
+}
