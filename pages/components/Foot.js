@@ -1,5 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import ContactForm from './ContactForm';
 
 
 function footer() {
@@ -14,6 +15,9 @@ function footer() {
           <li><i className='fab fa-airbnb'></i></li>
           <li>linkedin</li>
       </ul>
+      <div className='contact'>
+          <ContactForm />
+      </div>
       <div className='emailAndPhone'>
           <span className='whatsapp'>whatsapp</span>
           <span className='gmail'>gmail</span>

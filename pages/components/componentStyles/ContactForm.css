@@ -1,0 +1,36 @@
+.ContactForm input , textarea , button {
+    margin-bottom: 0.4rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: 0.3px solid #333;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.911);
+    width: 60%;
+}
+
+.ContactForm textarea:focus,input:focus {
+    outline: none;
+}
+
+.ContactForm textarea {
+    resize: none;
+    width: 60%;
+    height: 5rem;
+}
+
+.ContactForm button {
+    width: 35%;
+    padding: 0.7rem;
+    color: #fff;
+    background-color: inherit;
+    border: 1px solid #fff;
+    font-size: 1rem;
+    transition: all ease-in-out 300ms;
+    cursor: pointer;
+}
+
+.ContactForm button:hover {
+    color: black;
+    background-color: #fff;
+    border: 1px solid #333;
+}
