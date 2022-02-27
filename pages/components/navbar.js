@@ -11,6 +11,7 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 // import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
+import  Link from 'next/link';
 
 const style2 = {
   background : '#2E3B55',
@@ -25,8 +26,10 @@ const style1 = {
 };
 
 
-const pages = ['Projects', 'About Me', 'What is your number ??' , 'Get Inspired by Rumi'];
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
+const pages = [{name:'Projects' , link:'/projects'},
+ {name :'About Me' , link:'/about'}, 
+ {name : 'What is your number ??' , link: '#contact'} ,
+  {name:'Get Inspired by Rumi' , link:'insparation'}];
 
 const ResponsiveAppBar = ({ colorChange }) => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -62,7 +65,7 @@ const ResponsiveAppBar = ({ colorChange }) => {
             component="div"
             sx={{ mr: 2 , display: { xs: 'none', md: 'flex' } }}
           >
-            DanielScrypt
+            <a href='/'>DanielScrypt</a> 
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }} style={style}>
@@ -95,9 +98,11 @@ const ResponsiveAppBar = ({ colorChange }) => {
               }}
             >
               {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{page}</Typography>
+               <Link href={page.link}>
+                 <MenuItem key={page.name} onClick={handleCloseNavMenu}>
+                    <Typography textAlign="center">{page.name}</Typography>
                 </MenuItem>
+                </Link>
               ))}
             </Menu>
           </Box>
@@ -111,13 +116,15 @@ const ResponsiveAppBar = ({ colorChange }) => {
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }} >
             {pages.map((page) => (
-              <Button style={style}
-                key={page}
+              <Link href={page.link} >
+                <Button style={style}
+                key={page.name}
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
-                {page}
+                {page.name}
               </Button>
+              </Link>
             ))}
           </Box>
 

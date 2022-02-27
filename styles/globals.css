@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    scroll-behavior: smooth;
 
 }
 
@@ -17,3 +18,4 @@ a {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Handlee&family=Leckerli+One&family=Neucha&family=Zen+Kurenaido&display=swap');
+@import url("https://kit.fontawesome.com/8b76f13d94.js")
