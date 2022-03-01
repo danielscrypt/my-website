@@ -54,3 +54,15 @@
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
+
+  @media (max-width : 470px) {
+      .rounds {
+          width: 70%;
+      }
+
+      .round {
+          min-width: 100px;
+          height: 50%;
+          font-size: 0.8rem;
+      }
+  }

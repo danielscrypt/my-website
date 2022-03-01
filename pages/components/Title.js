@@ -5,7 +5,6 @@ function Title() {
         <div>
             <div className="area" >
             <ul className="circles">
-            <div className='mainImg'  alt='' />
                     <li></li>
                     <li></li>
                     <li></li>
@@ -16,8 +15,13 @@ function Title() {
                     <li></li>
                     <li></li>
                     <li></li>
-                    <p className='welcomeText'>It is easier to carry an empty cup
-than one that is filled to the brim. </p>
+            <div className='details'>
+                    <div className='mainImg'  alt='' />
+                    <div className='welcomeText'>
+                    <h2>Your search for a new talent is now complete.</h2>
+                    <p>I can be the change<br/> you are looking for </p>
+                    </div>
+                    </div>
             </ul>
     </div >
         </div>

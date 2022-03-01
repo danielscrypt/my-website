@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Leckerli+One&family=Neucha&family=Zen+Kurenaido&display=swap');
+
+
+.contentInspiration {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 87vh;
+    margin-top: 3rem;
+    padding: 2rem 1rem;
+    background-color: rgba(253, 253, 253, 0.452);
+    font-family: 'Zen Kurenaido', sans-serif;
+    transition: all ease-in-out 2000ms;
+}
+
+.quote {
+    font-size:4rem;
+    letter-spacing: 2px;
+}
+
+.Rumi {
+    margin-left: auto;
+    padding: 2rem 4rem;
+    font-size: 1.5rem;
+    color: #0a0d13;
+    font-weight: 800;
+    
+}
+
+.fade-out {
+	opacity: 0;
+	animation-name: fadeOutOpacity;
+	animation-iteration-count: 0;
+	animation-timing-function: ease-in;
+	animation-duration: 200ms;
+}
+
+@keyframes fadeOutOpacity {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+

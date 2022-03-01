@@ -4,7 +4,6 @@ const FORM_ENDPOINT = "https://public.herotofu.com/v1/b7f77620-97ac-11ec-bdf8-dd
 const ContactForm = () => {
   const [submitted, setSubmitted] = useState(false);
   const handleSubmit = (e) => {
-    console.log('submitted')  
     setTimeout(() => {
       setSubmitted(true);
     }, 100);
@@ -24,7 +23,6 @@ const ContactForm = () => {
       action={FORM_ENDPOINT}
       onSubmit={handleSubmit}
       method="POST"
-      target="_blank"
       className="ContactForm"
     >
       <div>
@@ -37,7 +35,7 @@ const ContactForm = () => {
         <textarea placeholder="Your message" name="message" required />
       </div>
       <div>
-        <button type="button"> Send a message </button>
+        <button type="submit"> Send a message </button>
       </div>
     </form>
   );

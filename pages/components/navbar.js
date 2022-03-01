@@ -29,9 +29,9 @@ const style1 = {
 const pages = [{name:'Projects' , link:'/projects'},
  {name :'About Me' , link:'/about'}, 
  {name : 'What is your number ??' , link: '#contact'} ,
-  {name:'Get Inspired by Rumi' , link:'insparation'}];
+  {name:'Get Inspired by Rumi' , link:'inspiration'}];
 
-const ResponsiveAppBar = ({ colorChange }) => {
+const ResponsiveAppBar = ({ colorChange = false }) => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
 
@@ -52,7 +52,7 @@ const ResponsiveAppBar = ({ colorChange }) => {
   //   setAnchorElUser(null);
   // };
 
-  const style = colorChange ? style1 : style2 ; 
+  const style = colorChange ?  style1 : style2 ; 
 
 
   return (
@@ -98,8 +98,8 @@ const ResponsiveAppBar = ({ colorChange }) => {
               }}
             >
               {pages.map((page) => (
-               <Link href={page.link}>
-                 <MenuItem key={page.name} onClick={handleCloseNavMenu}>
+               <Link key={page.name} href={page.link}>
+                 <MenuItem  onClick={handleCloseNavMenu}>
                     <Typography textAlign="center">{page.name}</Typography>
                 </MenuItem>
                 </Link>
@@ -116,9 +116,9 @@ const ResponsiveAppBar = ({ colorChange }) => {
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }} >
             {pages.map((page) => (
-              <Link href={page.link} >
+              <Link key={page.name} href={page.link} >
                 <Button style={style}
-                key={page.name}
+                
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
