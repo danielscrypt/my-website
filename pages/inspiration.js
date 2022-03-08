@@ -44,7 +44,7 @@ const [fade , setFade] = useState('fade-in')
            <h1 className={`qoute ${fade}`}>{quotes[qouteNum].content} </h1>
            <p className={`Rumi ${fade}`}>{quotes[qouteNum].author} </p>
 
-           <button onClick={getRandQoute}>Go ahead !</button>
+           <button className='btn' onClick={getRandQoute}>Go ahead !</button>
         </div>
         <Footer />
     </div>

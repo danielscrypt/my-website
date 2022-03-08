@@ -28,7 +28,7 @@ const style1 = {
 
 const pages = [{name:'Projects' , link:'/projects'},
  {name :'About Me' , link:'/about'}, 
- {name : 'What is your number ??' , link: '#contact'} ,
+ {name : `Let's Talk` , link: '#contact'} ,
   {name:'Get Inspired by Rumi' , link:'inspiration'}];
 
 const ResponsiveAppBar = ({ colorChange = false }) => {
