@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import ContactForm from './ContactForm';
-import Link from 'next/link';
+// import Link from 'next/link';
 
 
 function footer() {

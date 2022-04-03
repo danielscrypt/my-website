@@ -9,7 +9,7 @@ function FirstContent() {
         <div className='rounds'>
             <div className='round'>I'm a man of creativty</div>
             <div className='round'>A person of visionarity</div>
-            <div className='round'>And a Soul of mind and space</div>
+            <div className='round'>With a <br/> CAN DO <br/> Aproach !</div>
         </div>
             
         </div>

@@ -27,6 +27,7 @@
 }
 
 .icon {
+    display: block;
     cursor: pointer;
     opacity: 0.6;
     transition: all ease-in-out 200ms;

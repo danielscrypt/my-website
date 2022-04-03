@@ -8,6 +8,7 @@ import './components/componentStyles/aboutMe.css'
 import './components/componentStyles/projectsPage.css'
 import './components/componentStyles/ContactForm.css'
 import './components/componentStyles/insparation.css'
+import './components/componentStyles/Loading.css'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'
@@ -22,7 +23,9 @@ library.add(fab, faCoffee)
 
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return (
+    <Component {...pageProps} />
+  ) 
 }
 
 export default MyApp

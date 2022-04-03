@@ -1,0 +1,137 @@
+.showLoad {
+    background-color: #2e3b5594;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    font-size: 5rem;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.brt {
+    font-size: 1rem;
+    padding: 1rem;
+    margin-top: 2rem;
+    color: #fff;
+}
+
+.hideLoad {
+    opacity: 0;
+    display: none;
+    z-index: -1;
+}
+
+.loadOut {
+	animation-name: fadeOutOpacity;
+    animation-delay: 3000ms;
+	animation-timing-function: ease-in-out;
+	animation-duration: 700ms;
+}
+
+.smiley{
+    position:relative;
+    width: 70px;
+    height: 70px;
+    padding: 1rem 0;
+  }
+  
+  .loader {
+    position: relative;
+    border-radius: 50%;
+    box-sizing: border-box;
+    width: 70px;
+    height: 70px;
+    background: linear-gradient(to bottom, #333 50%, #fff 50%);
+    animation: rotate 2s infinite;
+  }
+  
+  .loader:before {
+    content: "";
+    position: absolute;
+    left: 8px;
+    right: 8px;
+    top: 8px;
+    bottom: 8px;
+    border-radius: 50%;
+    background: #333;
+  }
+  
+  .dot-left7, .dot-right7 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #fff;
+  }
+  
+  .dot-left7 {
+    left: 4px;
+    top: 10px;
+    animation: dissapearL 2s infinite;
+  }
+  
+  .dot-right7 {
+    right: 6px;
+    top: 10px;
+    animation: dissapearR 2s infinite;
+  }
+  
+  @keyframes rotate{
+    from{
+      transform:rotate(0);
+    }
+    to{
+      transform:rotate(720deg);
+    }
+  }
+  
+  @keyframes dissapearL{
+    0%{
+      transform:scale(1);
+    }
+    10%{
+      transform:scale(1);
+    }
+    15%{
+      transform:scale(0);
+    }
+    45%{
+      transform:scale(0);
+    }
+    50%{
+      transform:scale(1);
+    }
+  }
+  
+  @keyframes dissapearR{
+    0%{
+      transform:scale(1);
+    }
+    15%{
+      transform:scale(1);
+    }
+    20%{
+      transform:scale(0);
+    }
+    65%{
+      transform:scale(0);
+    }
+    70%{
+      transform:scale(1);
+    }
+  }
+
+
+@keyframes fadeOutOpacity {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
