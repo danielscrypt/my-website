@@ -17,7 +17,7 @@ function Title() {
                     <li></li>
             <div className='details'>
                     <div className='mainImg'  alt='' />
-                    <div className='welcomeText'>
+                    <div className='welcomeText fade-in'>
                     <h2>Your search for a new talent is now complete.</h2>
                     <p>I can be the change<br/> you are looking for </p>
                     </div>

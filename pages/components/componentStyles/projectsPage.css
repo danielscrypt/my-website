@@ -15,8 +15,20 @@
     padding: 2rem;
     border-radius: 1rem;
     background-color: rgba(255, 255, 255, 0.295);
+    max-height: 28%;
 }
 
+.projectSection p {
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.secondTitle {
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-weight: 600;
+}
 .projects {
     height: 87vh;
     background-color: rgba(255, 0, 0, 0.164);
@@ -30,4 +42,42 @@
     justify-content: space-between;
     margin-top: 0.7rem;
     
+}
+
+.projectHeader {
+    transition: all ease-in-out 300ms 100ms ;
+}
+
+.projectHeader:hover {
+    transform: translateY(-10px);
+}
+
+.img {
+    cursor: pointer;
+    width: 25%;
+    height: 20%;
+    transform: translateY(-2rem);
+    -webkit-box-shadow: 0px 0px 20px 14px rgba(70,65,65,0.55); 
+    box-shadow: 0px 0px 20px 14px rgba(70,65,65,0.55);
+    transition: all ease-in-out 500ms;
+}
+
+.img:hover {
+    transform: scale(3) translateX(-4rem) translateY(-1rem);
+}
+
+@media (min-width : 800px) {
+    .img {
+        height: 10%;
+        width: 10%;
+    }
+}
+
+@media (max-width : 500px) {
+    .projects {
+        height: 100vh;
+    }
+    .projectSection {
+        max-height: 30%;
+    }
 }
