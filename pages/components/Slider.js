@@ -3,7 +3,7 @@ import React from 'react'
 function Slider() {
     return (
         <div>
-            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
   <div className="carousel-inner">
     <div className="carousel-item active">
       <img className="d-block w-100" src="..." alt="First slide"/>
