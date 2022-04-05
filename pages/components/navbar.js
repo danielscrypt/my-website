@@ -65,7 +65,7 @@ const ResponsiveAppBar = ({ colorChange = false }) => {
             component="div"
             sx={{ mr: 2 , display: { xs: 'none', md: 'flex' } }}
           >
-            <a href='/'>DanielScrypt</a> 
+            <Link href='/'>DanielScrypt</Link> 
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }} style={style}>
@@ -112,7 +112,7 @@ const ResponsiveAppBar = ({ colorChange = false }) => {
             component="div"
             sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}
           >
-            <a href='/'>DanielScrypt</a> 
+            <Link href='/'>DanielScrypt</Link> 
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }} >
             {pages.map((page) => (

@@ -6,7 +6,7 @@ import Head from 'next/head'
 
 
 
-function insparation() {
+function Inspired() {
 
   
 
@@ -71,4 +71,4 @@ const [fade , setFade] = useState('fade-in')
   )
 }
 
-export default insparation
+export default Inspired
