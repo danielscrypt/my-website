@@ -12,7 +12,7 @@ function insparation() {
 
   const quotes = [
     {content : '“Do not feel lonely, the entire universe is inside you.”'  , author:'Galal A-din Rumi' },
-    {content : '“Lovers don’t finally meet somewhere. They’re in each other all along.”'  , author:'Galal A-din Rumi'},
+    {content : '“Lovers dont finally meet somewhere. They`re in each other all along.”'  , author:'Galal A-din Rumi'},
     {content : '“There are a thousand ways to kneel and kiss the ground; there are a thousand ways to go home again.”'  , author:'Galal A-din Rumi'},
     {content : '“Raise your words, not voice. It is rain that grows flowers, not thunder.”'  , author:'Galal A-din Rumi'},
     {content : '“This place is a dream. Only a sleeper considers it real. Then death comes like dawn, and you wake up laughing at what you thought was your grief.”'  , author:'Galal A-din Rumi'},
@@ -20,7 +20,7 @@ function insparation() {
     {content : '“You are not a drop in the ocean. You are the entire ocean, in a drop.”'  , author:'Galal A-din Rumi'},
     {content : 'If the foot of the trees were not tied to earth, they would be pursuing me. For I have blossomed so much, I am the envy of the gardens.” '  , author:'Galal A-din Rumi'},
     {content : '“Stop acting so small. You are the universe in ecstatic motion.”'  , author:'Galal A-din Rumi'},
-    {content : '“Don’t be satisfied with stories, how things have gone with others. Unfold your own myth.” '  , author:'Galal A-din Rumi'},
+    {content : '“Don`t be satisfied with stories, how things have gone with others. Unfold your own myth.” '  , author:'Galal A-din Rumi'},
     {content : '“The journey of a thousand miles begins with a single step.”'  , author:'Lao Tzu'},
     {content : '“A good traveler has no fixed plans and is not intent on arriving.”'  , author:'Lao Tzu'},
     {content : '“Those who know do not speak. Those who speak do not know.”'  , author:'Lao Tzu'},

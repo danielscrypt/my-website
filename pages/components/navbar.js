@@ -29,7 +29,7 @@ const style1 = {
 const pages = [{name:'Projects' , link:'/projects'},
  {name :'About Me' , link:'/about'}, 
  {name : `Let's Talk` , link: '#contact'} ,
-  {name:'Get Inspired by Rumi' , link:'inspiration'}];
+  {name:'Get Inspired by Rumi' , link:'Inspired'}];
 
 const ResponsiveAppBar = ({ colorChange = false }) => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);

@@ -59,7 +59,7 @@ const ContactForm = () => {
     return (
       <>
         <h2>Thank you!</h2>
-        <div>We'll be in touch soon.</div>
+        <div>We&apos;ll be in touch soon.</div>
       </>
     );
   }

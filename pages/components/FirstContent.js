@@ -7,7 +7,7 @@ function FirstContent() {
             <h1>My Name is Daniel !</h1>
 
         <div className='rounds'>
-            <div className='round'>I'm a man of creativty</div>
+            <div className='round'>I&apos;m a man of creativty</div>
             <div className='round'>A person of visionarity</div>
             <div className='round'>With a <br/> CAN DO <br/> Aproach !</div>
         </div>

@@ -41,7 +41,7 @@ function projects() {
         <h2 className='secondTitle'>The code for all the projects is distributed on github</h2>
         {projects.map(p => (
         <section key={p.projectName} className='projectSection'>
-            <h2 className='projectHeader'><a target='_blank' href={p.link} >{p.projectName}</a></h2>
+            <h2 className='projectHeader'><a rel="noreferrer" target='_blank' href={p.link} >{p.projectName}</a></h2>
             <div className='projectContent'>
                 <p>{p.description}</p>
                 <img className='img' alt='project-image' src={p.imagesSrc} ></img>

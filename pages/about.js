@@ -16,7 +16,7 @@ function aboutMe() {
         <Navbar />
         <div className='contentAbout'>
             <h1 className='title'>
-                I'm Daniel !
+                I&apos;m Daniel !
             </h1>
             <section className='section1'>
                <h2 className='sectionHeader'>
