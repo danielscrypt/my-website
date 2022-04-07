@@ -10,7 +10,7 @@ function SecondContent() {
     ]
 
     return (
-        <div className='first SecondContent'>
+        <div className='mainContent SecondContent'>
             <h1>For more information please make sure to check out </h1>
 
         <div className='rounds'>

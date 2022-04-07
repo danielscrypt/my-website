@@ -3,7 +3,7 @@ import React from 'react'
 
 function FirstContent() {
     return (
-        <div className='first'>
+        <div className='mainContent'>
             <h1>My Name is Daniel !</h1>
 
         <div className='rounds'>
