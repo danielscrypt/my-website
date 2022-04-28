@@ -54,13 +54,18 @@
 
 .img {
     cursor: pointer;
-    width: 25%;
-    height: 20%;
+    min-width: 10%;
+    min-height: 5%;
+    max-width: 30%;
+    max-height: 25%;
     transform: translateY(-2rem);
-    -webkit-box-shadow: 0px 0px 20px 14px rgba(70,65,65,0.55); 
-    box-shadow: 0px 0px 20px 14px rgba(70,65,65,0.55);
     transition: all ease-in-out 500ms;
 }
+
+/* .img img {
+    -webkit-box-shadow: 0px 0px 20px 14px rgba(70,65,65,0.55); 
+    box-shadow: 0px 0px 20px 14px rgba(70,65,65,0.55);
+} */
 
 .img:hover {
     transform: scale(3) translateX(-4rem) translateY(-1rem);

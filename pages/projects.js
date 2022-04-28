@@ -2,27 +2,33 @@ import React from 'react'
 import Navbar from './components/navbar.js'
 import Footer from './components/Foot.js'
 import Head from 'next/head'
+import Image from 'next/image'
+import MiniPic from './components/componentStyles/miniProjects.png'
+import colorsPic from './components/componentStyles/colors.png'
+import YelpCampPic from './components/componentStyles/yelpCamp.png'
+
+
 
 function projects() {
     const projects = [
       {   id:'p1' , 
       projectName: '30 Mini Projects' , 
       mainImgSrc: 'demo' , 
-      imagesSrc : '/_next/static/media/miniProjects.png', 
+      imagesSrc : MiniPic , 
       description: '30 Mini Projects made with pure JS , CSS and HTML ! No frameworks involved !', 
       link: 'https://mini-projects-daniel.herokuapp.com/'
       },
         {   id:'p1' , 
         projectName: 'Colors Project' , 
         mainImgSrc: 'demo' , 
-        imagesSrc : '/_next/static/media/colors.png', 
+        imagesSrc : colorsPic , 
         description: 'Color app that helps you pick a color according to your needs ! You will be able to choose from a variaty of different palattes, change the opacity the color code and much more !',
         link : 'https://color-project-daniel.herokuapp.com/'
         } , 
         {   id:'p1' , 
         projectName: 'YelpCamp' , 
         mainImgSrc: 'demo' , 
-        imagesSrc : '/_next/static/media/yelpCamp.png', 
+        imagesSrc : YelpCampPic , 
         description: 'Camps search and sharing engine that allows you to read and review camps around the world and also to publish one on your own. ***currently offline...'
         } 
     ]
@@ -44,7 +50,11 @@ function projects() {
             <h2 className='projectHeader'><a rel="noreferrer" target='_blank' href={p.link} >{p.projectName}</a></h2>
             <div className='projectContent'>
                 <p>{p.description}</p>
-                <img className='img' alt='project-image' src={p.imagesSrc} ></img>
+                <div className='img' >
+                <Image
+                alt='project-image' 
+                src={p.imagesSrc} />
+                </div>
             </div>
         </section>
         ))}

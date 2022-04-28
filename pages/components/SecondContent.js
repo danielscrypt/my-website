@@ -1,4 +1,6 @@
 import React from 'react'
+import  Link from 'next/link';
+
 
 function SecondContent() {
 
@@ -15,9 +17,9 @@ function SecondContent() {
 
         <div className='rounds'>
             {boxes.map(box => (
-                <a href={box.link} key={box.content} className='box'>
-                        <p>{box.content} </p>
-                </a>
+                <Link href={box.link} key={box.content}>
+                        <p  className='box'>{box.content} </p>
+                </Link>
             ))}
         </div>
             
