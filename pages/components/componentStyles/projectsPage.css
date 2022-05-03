@@ -80,9 +80,12 @@
 
 @media (max-width : 500px) {
     .projects {
-        height: 100vh;
+        height: 105vh;
     }
     .projectSection {
-        max-height: 30%;
+        max-height: 33%;
+    }
+    .img:hover {
+        transform: scale(3) translateX(-2rem) translateY(-0.7rem);
     }
 }

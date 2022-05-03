@@ -7,7 +7,7 @@ function SecondContent() {
     const boxes = [
         {content : 'My Projects' , link : '/projects'} , 
         {content : 'About Me' , link : '/about'} , 
-        {content : `Let's Talk !` , link : '#contact'} , 
+        {content : `Let's Talk` , link : '#contact'} , 
 
     ]
 

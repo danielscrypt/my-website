@@ -13,7 +13,7 @@ function Inspired() {
   const quotes = [
     {content : '“Do not feel lonely, the entire universe is inside you.”'  , author:'Galal A-din Rumi' },
     {content : '“Lovers dont finally meet somewhere. They`re in each other all along.”'  , author:'Galal A-din Rumi'},
-    {content : '“There are a thousand ways to kneel and kiss the ground; there are a thousand ways to go home again.”'  , author:'Galal A-din Rumi'},
+    {content : '“Beyond wrongdoings and rightdoings there is a field; I will meet you there.”'  , author:'Galal A-din Rumi'},
     {content : '“Raise your words, not voice. It is rain that grows flowers, not thunder.”'  , author:'Galal A-din Rumi'},
     {content : '“This place is a dream. Only a sleeper considers it real. Then death comes like dawn, and you wake up laughing at what you thought was your grief.”'  , author:'Galal A-din Rumi'},
     {content : ' “Would you become a pilgrim on the road of love? The first condition is that you make yourself humble as dust and ashes.”'  , author:'Galal A-din Rumi' },
