@@ -26,7 +26,6 @@
 .secondTitle {
     text-align: center;
     font-size: 1rem;
-    font-family: 'Zen Kurenaido', sans-serif;
     font-weight: 600;
 }
 .projects {
@@ -86,6 +85,6 @@
         max-height: 33%;
     }
     .img:hover {
-        transform: scale(3) translateX(-2rem) translateY(-0.7rem);
+        transform: scale(3) translateX(-2.3rem) translateY(1.5rem);
     }
 }
