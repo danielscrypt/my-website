@@ -44,6 +44,9 @@ export default function Home() {
 
   return (
     <div className={styles.container}  >
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Handlee&family=Leckerli+One&family=Neucha&family=Zen+Kurenaido&display=swap" rel="stylesheet"></link>
      <Loading  />
       <Head>
         <title>Daniel&apos;s Website</title>
